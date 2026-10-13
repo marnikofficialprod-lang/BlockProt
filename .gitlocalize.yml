@@ -1,7 +1,0 @@
-settings:
-  mention_contributors_in_pull_requests:
-    - "true"
-
-synchronize:
-  paths:
-    - source: .

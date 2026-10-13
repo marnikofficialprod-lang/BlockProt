@@ -1,0 +1,17 @@
+{
+	"schemaVersion": 1,
+	"id": "blockprot-gametest",
+	"version": "1.0.0",
+	"name": "BlockProt GameTests",
+	"license": "GPL-3.0-or-later",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-gametest": [
+			"de.sean.blockprot.gametest.BlockProtGameTests"
+		]
+	},
+	"depends": {
+		"blockprot": "*",
+		"fabric-gametest-api-v1": "*"
+	}
+}

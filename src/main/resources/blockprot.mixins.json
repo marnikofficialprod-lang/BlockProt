@@ -1,0 +1,29 @@
+{
+	"required": true,
+	"package": "de.sean.blockprot.fabric.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"AbstractContainerMenuMixin",
+		"BlockItemMixin",
+		"BreakDoorGoalMixin",
+		"CompoundContainerAccessor",
+		"DoorBlockMixin",
+		"DoorInteractGoalAccessor",
+		"EnderDragonMixin",
+		"FallingBlockMixin",
+		"FenceGateBlockMixin",
+		"FireBlockMixin",
+		"HopperBlockEntityMixin",
+		"LecternMenuMixin",
+		"LevelChunkMixin",
+		"PistonBaseBlockMixin",
+		"ServerExplosionMixin",
+		"ServerPlayerMixin",
+		"SignBlockEntityMixin",
+		"TrapDoorBlockMixin",
+		"WitherBossMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

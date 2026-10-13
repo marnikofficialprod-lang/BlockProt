@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "blockprot",
+	"version": "${version}",
+	"name": "BlockProt",
+	"description": "A simple block protection mod. Fabric port by mariotto of the BlockProt Spigot plugin by spnda.",
+	"authors": [
+		"spnda",
+		"mariotto"
+	],
+	"contact": {
+		"homepage": "https://github.com/marnikofficialprod-lang/BlockProt",
+		"sources": "https://github.com/marnikofficialprod-lang/BlockProt",
+		"issues": "https://github.com/marnikofficialprod-lang/BlockProt/issues"
+	},
+	"license": "GPL-3.0-or-later",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"de.sean.blockprot.fabric.BlockProt"
+		]
+	},
+	"mixins": [
+		"blockprot.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

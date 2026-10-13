@@ -1,103 +1,67 @@
-# BlockProt
+# BlockProt for Fabric
 
-[![CurseForge Downloads](http://cf.way2muchnoise.eu/full_440797_downloads.svg?badge_style=flat)](https://www.curseforge.com/minecraft/bukkit-plugins/blockprot)
-[![Modrinth Downloads](https://img.shields.io/modrinth/dt/uF5ePKuc?style=flat-square&color=green&label=Downloads&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGFyaWEtaGlkZGVuPSJ0cnVlIiBjbGFzcz0idGV4dC1sb2dvIiB3aWR0aD0iMTQyIiBoZWlnaHQ9IjE0MiI+PGc+PHBhdGggZD0iTTE1OS4wNyw4OS4yOUE3MC45NCw3MC45NCwwLDEsMCwyMCw2My41MkgzMkE1OC43OCw1OC43OCwwLDAsMSwxNDUuMjMsNDkuOTNsLTExLjY2LDMuMTJhNDYuNTQsNDYuNTQsMCwwLDAtMjktMjYuNTJsLTIuMTUsMTIuMTNhMzQuMzEsMzQuMzEsMCwwLDEsMi43Nyw2My4yNmwzLjE5LDExLjlhNDYuNTIsNDYuNTIsMCwwLDAsMjguMzMtNDlsMTEuNjItMy4xQTU3Ljk0LDU3Ljk0LDAsMCwxLDE0Ny4yNyw4NVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xOS43OSkiIGZpbGw9IiMxYmQ5NmEiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PC9wYXRoPjxwYXRoIGQ9Ik0xMDguOTIsMTM5LjNBNzAuOTMsNzAuOTMsMCwwLDEsMTkuNzksNzZoMTJhNTkuNDgsNTkuNDgsMCwwLDAsMS43OCw5LjkxLDU4LjczLDU4LjczLDAsMCwwLDMuNjMsOS45MWwxMC42OC02LjQxYTQ2LjU4LDQ2LjU4LDAsMCwxLDQ0LjcyLTY1TDkwLjQzLDM2LjU0QTM0LjM4LDM0LjM4LDAsMCwwLDU3LjM2LDc5Ljc1QzU3LjY3LDgwLjg4LDU4LDgyLDU4LjQzLDgzbDEzLjY2LTguMTlMNjgsNjMuOTNsMTIuOS0xMy4yNSwxNi4zMS0zLjUxTDEwMS45LDUzbC03LjUyLDcuNjEtNi41NSwyLjA2LTQuNjksNC44MiwyLjMsNi4zOHM0LjY0LDQuOTQsNC42NSw0Ljk0bDYuNTctMS43NCw0LjY3LTUuMTMsMTAuMi0zLjI0LDMsNi44NEwxMDQuMDUsODguNDMsODYuNDEsOTRsLTcuOTItOC44MUw2NC43LDkzLjQ4YTM0LjQ0LDM0LjQ0LDAsMCwwLDI4LjcyLDExLjU5TDk2LjYxLDExN0E0Ni42LDQ2LjYsMCwwLDEsNTQuMTMsOTkuODNsLTEwLjY0LDYuMzhhNTguODEsNTguODEsMCwwLDAsOTkuNi05Ljc3bDExLjgsNC4yOUE3MC43Nyw3MC43NywwLDAsMSwxMDguOTIsMTM5LjNaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTkuNzkpIiBmaWxsPSIjMWJkOTZhIj48L3BhdGg+PC9nPjwvc3ZnPg==)](https://modrinth.com/plugin/blockprot)
-[![Spigot Downloads](https://img.shields.io/spiget/downloads/87829?style=flat-square&color=orange&label=Spigot%20Downloads)](https://www.spigotmc.org/resources/blockprot.87829/)
-[![Spigot Rating](https://img.shields.io/spiget/stars/87829?style=flat-square&color=orange&label=Rating)](https://www.spigotmc.org/resources/blockprot.87829/)
-[![Hangar Downloads](https://img.shields.io/hangar/dt/BlockProt?style=flat-square&label=Hangar%20Downloads)](https://hangar.papermc.io/spnda/BlockProt)
-[![BlockProt CI](https://img.shields.io/github/actions/workflow/status/spnda/BlockProt/ci.yml?branch=master&style=flat-square&label=CI)](https://github.com/spnda/BlockProt)
-[![gitlocalized](https://gitlocalize.com/repo/6775/whole_project/badge.svg)](https://gitlocalize.com/repo/6775)
-[![JitPack](https://img.shields.io/jitpack/version/com.github.spnda/BlockProt?style=flat-square)](https://jitpack.io/#spnda/BlockProt)
+Fabric port of the [BlockProt](https://github.com/spnda/BlockProt) Spigot plugin (1.2.6) by spnda,
+for **Minecraft 26.3**. Fabric port made and maintained by mariotto. Licensed under the GPL-3.0,
+like the original.
 
+Report problems with the Fabric version at
+[marnikofficialprod-lang/BlockProt](https://github.com/marnikofficialprod-lang/BlockProt/issues),
+not on the original project.
 
-[![Servers](https://img.shields.io/bstats/servers/9999?style=flat-square)](https://bstats.org/plugin/bukkit/BlockProt/9999)
-[![Players](https://img.shields.io/bstats/players/9999?style=flat-square)](https://bstats.org/plugin/bukkit/BlockProt/9999)
-[![Discord](https://img.shields.io/discord/860987230453891112?style=flat-square)](https://discord.gg/WVy6DHScFb)
+The mod only runs on the server. The menus are normal chest and anvil screens, so vanilla
+clients can join without installing anything.
 
-BlockProt is a lightweight Bukkit and Spigot plugin that gives players the ability to protect
-chests, furnaces and many more blocks. The plugin features a modern GUI approach instead of
-commands, so that any player can easily understand how to use all of its features.
+## Installation
 
-![image1](https://raw.githubusercontent.com/spnda/BlockProt/master/images/main_menu.png)
+1. Install Fabric Loader 0.19.5+ and Fabric API on the server (Java 25).
+2. Put `build/libs/blockprot-fabric-1.2.6+fabric.2.jar` into the `mods` folder.
+3. Optional: install LuckPerms to manage the permissions.
 
-## Installing
+## What stays the same
 
-To use this plugin, you can simply download it from [CurseForge](https://www.curseforge.com/minecraft/bukkit-plugins/blockprot),
-[Modrinth](https://modrinth.com/plugin/blockprot) or [SpigotMC](https://www.spigotmc.org/resources/blockprot.87829/)
-and place it in your `plugins` directory. You do not have to install anything else and any recent
-version will work with any recent Minecraft version, as long as you're running Java 17 or higher.
-It runs on any Spigot and any fork thereof and does **not** run on CraftBukkit.
+- All menus: lock/unlock, block info, friends (search, history, "the public", permissions
+  read/write/manager), redstone/hopper/piston protection, copy/paste configuration, block name,
+  inspect contents, user settings, statistics.
+- Commands: `/blockprot` (alias `/bp`) with `settings`, `stats`/`statistics`, `about`,
+  `reload`, `disablehints` and `debug`.
+- The `config.yml` keys and the 15 translation files. Block names like `OAK_DOOR` still work;
+  ids such as `minecraft:oak_door` or modded blocks also work.
+- Protection against: other players, explosions, fire, pistons, hoppers, redstone (doors,
+  trapdoors, fence gates), withers, the ender dragon, zombies breaking doors, falling anvils.
+- Locked shulker boxes keep their protection when the owner breaks and places them again.
+- Permissions: `blockprot.lock` (everyone), `blockprot.info` (operators), `blockprot.admin`,
+  `blockprot.bypass`, `blockprot.lockmax`, `blockprot.locklimit.<number>`, `blockprot.debug`.
 
-To get the latest updates the quickest, you can "watch" or "star" this repository or frequently
-check the [Release tab](https://github.com/spnda/BlockProt/releases). Alternatively, it is also
-possible to [watch the resource](https://www.spigotmc.org/resources/blockprot.87829/watch) on
-Spigot, which will also notify you as soon as new builds get released.
+## What changed
 
----
+| Spigot | Fabric |
+| --- | --- |
+| `plugins/BlockProt/config.yml` | `config/blockprot/config.yml` |
+| `plugins/BlockProt/lang/` | `config/blockprot/lang/` |
+| PersistentDataContainer (NBT-API) | Fabric data attachments on block entities, chunks and players |
+| `blockprot_usercache.sqlite` | `blockprot_usercache.json` in the server folder |
+| `excluded_worlds: world_nether` | Same names work, as do dimension ids like `minecraft:the_nether` |
+| `blockprot.locklimit.<n>` from any permission plugin | Read from LuckPerms, or from the LuckPerms meta key `blockprot.locklimit` |
+| Bukkit events (`BlockAccessEvent`, ...) | Fabric events: `BlockAccessEvent.EVENT`, `BlockAccessMenuEvent.EVENT`, `BlockLockOnPlaceEvent.EVENT` |
 
-If you want to build the plugin from source yourself, you can simply do so by installing JDK 17
-or newer, cloning this repository and running `./gradlew build` in the main directory.
+Removed: the Towny, WorldGuard, Lands and PlaceholderAPI integrations, bStats metrics, the
+`/blockprot integrations` command and the update checker (`/blockprot update` and
+`notify_op_of_updates`), which only knew about the Spigot releases. Existing locks of a Paper server are not migrated.
 
-## Translating
+`replace_translations: true` now really overwrites the bundled translation files on every start,
+as the config comment describes. Set it to `false` to edit them.
 
-If you know a language that isn't supported by this plugin (yet) or found some translation error
-we'd love if you could translate for us!
+Small fixes over the plugin:
+- A new block placed where a locked door/trapdoor was removed is no longer locked already.
+- Managers (friends with the manager permission) can use the redstone settings.
+- Friend permissions are applied to both halves of double chests and doors.
+- Unlocking someone else's block as admin updates the owner's statistics.
 
-You can do so easily by going to [gitlocalize](https://gitlocalize.com/repo/6775/) or sending me
-the translations on Discord.
+## Building
 
-## Contact/Support
+Requires JDK 25.
 
-If you find bugs or any issues related to this plugin, please report them over on the
-[GitHub issue tracker](https://github.com/spnda/BlockProt/issues). If you require more support or
-want to ask questions, please use the [Discord server](https://discord.gg/WVy6DHScFb) for chatting.
-
-## Developing Addons
-
-This plugin offers a basic API which other developers can use to add new features and provide
-support and compatibility with other plugins. BlockProt can be accessed via the
-[jitpack.io repository](https://jitpack.io/#spnda/BlockProt).
-
-Your `build.gradle` file may look like this:
-```groovy
-repositories {
-    maven 'https://jitpack.io'
-}
-
-dependencies {
-    // This version might be slightly outdated. See https://github.com/spnda/BlockProt/releases.
-    implementation 'com.github.spnda.BlockProt:blockprot-spigot:0.4.11'
-}
 ```
-
-From here on, you're good to go. We provide an easy to use `BlockProtAPI` class and other utility methods
-to easily add new functionality, with low amount of boilerplate. In the following examples you can see how
-to use that class.
-```java
-// A BlockNBTHandler is a NBT Handler designed to lock blocks, add friends and edit other settings.
-// This handler exists on a per-block basis.
-BlockNBTHandler handler = BlockProtAPI.getInstance().getBlockHandler(block);
-
-// The PlayerSettingsHandler is made to handle settings that are commonly accessible
-// through the "/blockprot settings" command.
-PlayerSettingsHandler playerHandler = BlockProtAPI.getInstance().getPlayerSettings(player);
+./gradlew build                       # jar in build/libs
+./gradlew runGameTest -Pgametest      # automated in-game tests
 ```
-
-We also offer a variety of events that you can listen to. For an up-to-date and more detailed list, see
-[here](https://github.com/spnda/BlockProt/tree/master/src/main/java/de/sean/blockprot/bukkit/events).
-You can use these to block players from accessing some blocks based on custom conditions and much
-more. For even more fine grain control over events, you can write a `PluginIntegration`. A
-`PluginIntegration` is designed to be specific to a single other plugin and is only activated when
-the referenced plugin is actually loaded through Bukkit. It also provides utilities to quickly load
-a single config file and register listeners. BlockProt natively includes a plugin integration for
-Towny, which you can find
-[here](https://github.com/spnda/BlockProt/blob/master/src/main/java/de/sean/blockprot/bukkit/integrations/TownyIntegration.java).
-You can freely use this as an example.
-
-## bStats
-
-[![bStats Graph](https://bstats.org/signatures/bukkit/BlockProt.svg)](https://bstats.org/plugin/bukkit/BlockProt)
-
-## License
-
-BlockProt is licensed under GPLv3 license, view `LICENSE` to learn more.
